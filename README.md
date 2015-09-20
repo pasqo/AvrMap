@@ -10,7 +10,7 @@ Other registers other than IO will also be included as needed in the future for 
 The preprocessor map functions can be used either directly or through an extra level of defines, for example, or with template programming for an elegant way of specifying the pinout of a project.
 
 For instance, consider the following example:
-```
+```cpp
 //////////////////////////////////////////////////////////////////////////////
 // This example shows how to use the register maps to statically define the
 // pinout of a project using templates.
