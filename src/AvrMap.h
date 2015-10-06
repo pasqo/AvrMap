@@ -26,6 +26,9 @@
 #ifndef AvrMap_h
 #define AvrMap_h
 
+#define AVRMAP_MAJOR 1
+#define AVRMAP_MINOR 0
+
 #include <avr/io.h>
 
 typedef volatile unsigned char reg8_t;
